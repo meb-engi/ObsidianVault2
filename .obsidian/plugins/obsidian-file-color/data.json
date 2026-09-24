@@ -1,0 +1,74 @@
+{
+  "cascadeColors": false,
+  "colorBackground": false,
+  "palette": [
+    {
+      "id": "GNYquZ5S4O8qCcFzEd1al",
+      "name": "RED",
+      "value": "#fe7676"
+    },
+    {
+      "id": "sFmBnE1pxU6NfThOJsmuq",
+      "name": "ORANGE",
+      "value": "#fdb958"
+    },
+    {
+      "id": "8Yhl-ZsLtCHByEMQ18NQr",
+      "name": "YELLOW",
+      "value": "#fcff47"
+    },
+    {
+      "id": "TRPwXIKvfunXSH9KhNGSu",
+      "name": "GREEN",
+      "value": "#52ff66"
+    },
+    {
+      "id": "cmOLuaQOH4zso-i9vN360",
+      "name": "BLUE",
+      "value": "#4da9fe"
+    },
+    {
+      "id": "Vew7S2lBQxGA6IEncSiV4",
+      "name": "PURPLE",
+      "value": "#875cff"
+    },
+    {
+      "id": "Wxc22J5CHUZsvfFKiTM9k",
+      "name": "PINK",
+      "value": "#f675ff"
+    },
+    {
+      "id": "bAbgb1-wrmgrniT9a5DHx",
+      "name": "WHITE",
+      "value": "#fffdf0"
+    },
+    {
+      "id": "Hg4R4MEPMGsWDN-3q0J9r",
+      "name": "BLACK",
+      "value": "#212121"
+    },
+    {
+      "id": "jgNcEv8_yxIpocn5fJTjn",
+      "name": "POO",
+      "value": "#463510"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "Notebooks",
+      "color": "GNYquZ5S4O8qCcFzEd1al"
+    },
+    {
+      "path": "Research notes",
+      "color": "sFmBnE1pxU6NfThOJsmuq"
+    },
+    {
+      "path": "Notebooks/Q1",
+      "color": "Vew7S2lBQxGA6IEncSiV4"
+    },
+    {
+      "path": "archive/DAILY NOTES",
+      "color": "cmOLuaQOH4zso-i9vN360"
+    }
+  ]
+}

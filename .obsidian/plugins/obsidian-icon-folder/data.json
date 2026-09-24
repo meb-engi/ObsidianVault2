@@ -1,0 +1,51 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "FasPenRuler",
+      "LiGlobe2",
+      "FasSquarePollHorizontal",
+      "LiBookOpen",
+      "LiBook"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "Research notes": "LiNotebookPen",
+  "didyblud/TaskNotes": "FasNoteSticky",
+  "archive/DAILY NOTES": "LiSun",
+  "scratch notepad.md": "LiNewspaper",
+  "scratch paper.md": "LiNewspaper",
+  "Cheat Sheet.md": "LiNotepadTextDashed",
+  "Notebooks": "FasSchool",
+  "Notebooks/Q1/BIO": "FasBacteria",
+  "Notebooks/Q1/CHEM": "LiFlaskConical",
+  "Notebooks/Q1/COMPSCI": "FasComputer",
+  "Notebooks/Q1/PHYSICS": "LiCalculator",
+  "Notebooks/Q1/ENG": "LiBookOpen",
+  "Notebooks/Q1/Q1 EXAM REVIEWERS.md": "FasSquarePollHorizontal",
+  "Notebooks/Q1/Q1 EXAM COVERAGE.md": "FasPenRuler"
+}

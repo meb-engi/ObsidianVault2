@@ -1,0 +1,10 @@
+{
+  "interfaceFontFamily": "Monocraft",
+  "textFontFamily": "C059",
+  "monospaceFontFamily": "Monocraft",
+  "baseFontSize": 15,
+  "baseFontSizeAction": false,
+  "cssTheme": "Catppuccin",
+  "theme": "moonstone",
+  "accentColor": "#ee6dd6"
+}

@@ -1,0 +1,934 @@
+{
+  "tasksFolder": "TaskNotes/Tasks",
+  "moveArchivedTasks": false,
+  "archiveFolder": "TaskNotes/Archive",
+  "taskTag": "task",
+  "taskIdentificationMethod": "tag",
+  "hideIdentifyingTagsInCards": false,
+  "hideIdentifyingTagsMode": "all",
+  "taskPropertyName": "",
+  "taskPropertyValue": "",
+  "excludedFolders": "",
+  "defaultTaskPriority": "normal",
+  "defaultTaskStatus": "open",
+  "taskOrgFiltersCollapsed": false,
+  "taskFilenameFormat": "zettel",
+  "storeTitleInFilename": true,
+  "customFilenameTemplate": "{{title}}",
+  "occurrenceFilenameTemplate": "",
+  "occurrenceFilenameTemplateProperty": "occurrenceFilenameTemplate",
+  "taskCreationDefaults": {
+    "defaultContexts": "",
+    "defaultTags": "",
+    "defaultProjects": "",
+    "useParentNoteForTaskCreation": false,
+    "useParentNoteAsProject": false,
+    "useParentHeaderAsProject": false,
+    "inheritParentTaskProperties": false,
+    "defaultTimeEstimate": 0,
+    "defaultRecurrence": "none",
+    "defaultDueDate": "none",
+    "defaultDueTime": "none",
+    "defaultScheduledDate": "today",
+    "defaultScheduledTime": "none",
+    "bodyTemplate": "",
+    "useBodyTemplate": false,
+    "occurrenceBodyTemplate": "",
+    "useOccurrenceBodyTemplate": false,
+    "defaultReminders": []
+  },
+  "openTaskAfterCreation": "none",
+  "calendarViewSettings": {
+    "defaultView": "dayGridMonth",
+    "customDayCount": 3,
+    "slotDuration": "00:30:00",
+    "slotMinTime": "00:00:00",
+    "slotMaxTime": "24:00:00",
+    "scrollTime": "08:00:00",
+    "firstDay": 1,
+    "timeFormat": "24",
+    "showWeekends": true,
+    "locale": "",
+    "defaultShowScheduled": true,
+    "defaultShowDue": true,
+    "defaultShowDueWhenScheduled": true,
+    "defaultShowScheduledToDueSpan": false,
+    "defaultShowTimeEntries": false,
+    "defaultShowRecurring": true,
+    "defaultShowICSEvents": true,
+    "enableTimeblocking": false,
+    "defaultShowTimeblocks": true,
+    "defaultTimeblockColor": "#6366f1",
+    "timeblockAttachmentSearchOrder": "name-asc",
+    "nowIndicator": true,
+    "selectMirror": true,
+    "weekNumbers": false,
+    "showTodayHighlight": true,
+    "eventMinHeight": 15,
+    "slotEventOverlap": true,
+    "eventMaxStack": null,
+    "dayMaxEvents": true,
+    "dayMaxEventRows": false
+  },
+  "pomodoroWorkDuration": 25,
+  "pomodoroShortBreakDuration": 5,
+  "pomodoroLongBreakDuration": 15,
+  "pomodoroLongBreakInterval": 4,
+  "pomodoroAutoStartBreaks": true,
+  "pomodoroAutoStartWork": false,
+  "pomodoroNotifications": true,
+  "pomodoroSoundEnabled": true,
+  "pomodoroSoundVolume": 50,
+  "pomodoroStorageLocation": "plugin",
+  "pomodoroMobileSidebar": "tab",
+  "showPomodoroInStatusBar": true,
+  "enableTaskLinkOverlay": true,
+  "disableOverlayOnAlias": false,
+  "enableInstantTaskConvert": true,
+  "useDefaultsOnInstantConvert": true,
+  "preserveCheckboxOnConvert": false,
+  "taskModalTabMovesFocus": true,
+  "enableNaturalLanguageInput": true,
+  "nlpDefaultToScheduled": true,
+  "nlpLanguage": "en",
+  "uiLanguage": "system",
+  "statusSuggestionTrigger": "*",
+  "nlpTriggers": {
+    "triggers": [
+      {
+        "propertyId": "tags",
+        "trigger": "#",
+        "enabled": true
+      },
+      {
+        "propertyId": "contexts",
+        "trigger": "@",
+        "enabled": true
+      },
+      {
+        "propertyId": "projects",
+        "trigger": "+",
+        "enabled": true
+      },
+      {
+        "propertyId": "status",
+        "trigger": "*",
+        "enabled": true
+      },
+      {
+        "propertyId": "priority",
+        "trigger": "!",
+        "enabled": false
+      }
+    ]
+  },
+  "singleClickAction": "edit",
+  "doubleClickAction": "openNote",
+  "projectAutosuggest": {
+    "enableFuzzy": false,
+    "rows": [
+      "{title|n(Title)}",
+      "{aliases|n(Aliases)}",
+      "{file.path|n(Path)}"
+    ],
+    "showAdvanced": false,
+    "requiredTags": [],
+    "includeFolders": [],
+    "propertyKey": "",
+    "propertyValue": ""
+  },
+  "inlineTaskConvertFolder": "{{currentNotePath}}",
+  "disableNoteIndexing": false,
+  "suggestionDebounceMs": 0,
+  "fieldMapping": {
+    "title": "title",
+    "status": "status",
+    "priority": "priority",
+    "due": "due",
+    "scheduled": "scheduled",
+    "contexts": "contexts",
+    "projects": "projects",
+    "attachments": "attachments",
+    "timeEstimate": "timeEstimate",
+    "completedDate": "completedDate",
+    "dateCreated": "dateCreated",
+    "dateModified": "dateModified",
+    "recurrence": "recurrence",
+    "recurrenceAnchor": "recurrence_anchor",
+    "recurrenceParent": "recurrence_parent",
+    "occurrenceDate": "occurrence_date",
+    "occurrenceMaterialization": "occurrence_materialization",
+    "occurrenceNextTrigger": "occurrence_next_trigger",
+    "occurrenceTemplate": "occurrence_template",
+    "occurrencePastHorizon": "occurrence_past_horizon",
+    "occurrenceFutureHorizon": "occurrence_future_horizon",
+    "archiveTag": "archived",
+    "timeEntries": "timeEntries",
+    "completeInstances": "complete_instances",
+    "skippedInstances": "skipped_instances",
+    "blockedBy": "blockedBy",
+    "pomodoros": "pomodoros",
+    "icsEventId": "icsEventId",
+    "icsEventTag": "ics_event",
+    "googleCalendarEventId": "googleCalendarEventId",
+    "googleCalendarExceptionEventId": "googleCalendarExceptionEventId",
+    "googleCalendarExceptionOriginalScheduled": "googleCalendarExceptionOriginalScheduled",
+    "googleCalendarMovedOriginalDates": "googleCalendarMovedOriginalDates",
+    "reminders": "reminders",
+    "sortOrder": "tasknotes_manual_order"
+  },
+  "customStatuses": [
+    {
+      "id": "none",
+      "value": "none",
+      "label": "None",
+      "color": "#cccccc",
+      "isCompleted": false,
+      "excludeFromCycle": false,
+      "order": 0,
+      "autoArchive": false,
+      "autoArchiveDelay": 5
+    },
+    {
+      "id": "open",
+      "value": "open",
+      "label": "Open",
+      "color": "#808080",
+      "isCompleted": false,
+      "excludeFromCycle": false,
+      "order": 1,
+      "autoArchive": false,
+      "autoArchiveDelay": 5
+    },
+    {
+      "id": "in-progress",
+      "value": "in-progress",
+      "label": "In progress",
+      "color": "#0066cc",
+      "isCompleted": false,
+      "excludeFromCycle": false,
+      "order": 2,
+      "autoArchive": false,
+      "autoArchiveDelay": 5
+    },
+    {
+      "id": "done",
+      "value": "done",
+      "label": "Done",
+      "color": "#00aa00",
+      "isCompleted": true,
+      "excludeFromCycle": false,
+      "order": 3,
+      "autoArchive": false,
+      "autoArchiveDelay": 5
+    }
+  ],
+  "customPriorities": [
+    {
+      "id": "none",
+      "value": "none",
+      "label": "None",
+      "color": "#cccccc",
+      "weight": 0
+    },
+    {
+      "id": "low",
+      "value": "low",
+      "label": "Low",
+      "color": "#00aa00",
+      "weight": 1
+    },
+    {
+      "id": "normal",
+      "value": "normal",
+      "label": "Normal",
+      "color": "#ffaa00",
+      "weight": 2
+    },
+    {
+      "id": "high",
+      "value": "high",
+      "label": "High",
+      "color": "#ff0000",
+      "weight": 3
+    }
+  ],
+  "recurrenceMigrated": false,
+  "showReleaseNotesOnUpdate": true,
+  "checkForUpdatesOnStartup": true,
+  "starterNoteCreated": true,
+  "showTrackedTasksInStatusBar": false,
+  "autoStopTimeTrackingOnComplete": true,
+  "autoStopTimeTrackingNotification": false,
+  "showRelationships": true,
+  "relationshipsPosition": "bottom",
+  "showTaskCardInNote": true,
+  "showCompletedTaskStrikethrough": true,
+  "completionMenuAsSubmenu": true,
+  "showExpandableSubtasks": true,
+  "expandSubtasksByDefault": false,
+  "subtaskChevronPosition": "right",
+  "viewsButtonAlignment": "right",
+  "hideCompletedFromOverdue": true,
+  "icsIntegration": {
+    "defaultNoteTemplate": "",
+    "defaultNoteFolder": "",
+    "icsNoteFilenameFormat": "title",
+    "customICSNoteFilenameTemplate": "{title}",
+    "enableAutoExport": false,
+    "autoExportPath": "tasknotes-calendar.ics",
+    "autoExportInterval": 60,
+    "useDurationForExport": false,
+    "excludeArchivedFromExport": false,
+    "excludeCompletedFromExport": false,
+    "requireDueDateForExport": false,
+    "requireScheduledDateForExport": false,
+    "useICSEndAsDue": false,
+    "recurringEventRelatedNotesMode": "series"
+  },
+  "savedViews": [],
+  "enableNotifications": true,
+  "notificationType": "system",
+  "notificationSoundEnabled": false,
+  "notificationSoundVolume": 50,
+  "enableAPI": false,
+  "apiPort": 8080,
+  "apiAuthToken": "",
+  "enableMCP": false,
+  "webhooks": [],
+  "userFields": [],
+  "modalFieldsConfig": {
+    "version": 1,
+    "fields": [
+      {
+        "id": "title",
+        "fieldType": "core",
+        "group": "basic",
+        "displayName": "Title",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 0,
+        "enabled": true,
+        "required": true
+      },
+      {
+        "id": "details",
+        "fieldType": "core",
+        "group": "basic",
+        "displayName": "Details",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 1,
+        "enabled": true
+      },
+      {
+        "id": "contexts",
+        "fieldType": "core",
+        "group": "metadata",
+        "displayName": "Contexts",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 0,
+        "enabled": true
+      },
+      {
+        "id": "tags",
+        "fieldType": "core",
+        "group": "metadata",
+        "displayName": "Tags",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 1,
+        "enabled": true
+      },
+      {
+        "id": "time-estimate",
+        "fieldType": "core",
+        "group": "metadata",
+        "displayName": "Time Estimate",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 2,
+        "enabled": true
+      },
+      {
+        "id": "projects",
+        "fieldType": "organization",
+        "group": "organization",
+        "displayName": "Projects",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 0,
+        "enabled": true
+      },
+      {
+        "id": "subtasks",
+        "fieldType": "organization",
+        "group": "organization",
+        "displayName": "Subtasks",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 1,
+        "enabled": true
+      },
+      {
+        "id": "blocked-by",
+        "fieldType": "dependency",
+        "group": "dependencies",
+        "displayName": "Blocked By",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 0,
+        "enabled": true
+      },
+      {
+        "id": "blocking",
+        "fieldType": "dependency",
+        "group": "dependencies",
+        "displayName": "Blocking",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 1,
+        "enabled": true
+      }
+    ],
+    "groups": [
+      {
+        "id": "basic",
+        "displayName": "Basic Information",
+        "order": 0,
+        "collapsible": false,
+        "defaultCollapsed": false
+      },
+      {
+        "id": "metadata",
+        "displayName": "Metadata",
+        "order": 1,
+        "collapsible": true,
+        "defaultCollapsed": false
+      },
+      {
+        "id": "organization",
+        "displayName": "Organization",
+        "order": 2,
+        "collapsible": true,
+        "defaultCollapsed": false
+      },
+      {
+        "id": "dependencies",
+        "displayName": "Dependencies",
+        "order": 3,
+        "collapsible": true,
+        "defaultCollapsed": false
+      },
+      {
+        "id": "custom",
+        "displayName": "Custom Fields",
+        "order": 4,
+        "collapsible": true,
+        "defaultCollapsed": false
+      }
+    ]
+  },
+  "enableModalSplitLayout": true,
+  "defaultVisibleProperties": [
+    "status",
+    "priority",
+    "due",
+    "scheduled",
+    "projects",
+    "contexts",
+    "tags",
+    "blocked",
+    "blocking"
+  ],
+  "inlineVisibleProperties": [
+    "status",
+    "priority",
+    "due",
+    "scheduled",
+    "recurrence"
+  ],
+  "enableBases": true,
+  "enableMdbaseSpec": false,
+  "autoCreateDefaultBasesFiles": true,
+  "commandFileMapping": {
+    "open-calendar-view": "TaskNotes/Views/mini-calendar-default.base",
+    "open-kanban-view": "TaskNotes/Views/kanban-default.base",
+    "open-tasks-view": "TaskNotes/Views/tasks-default.base",
+    "open-advanced-calendar-view": "TaskNotes/Views/calendar-default.base",
+    "open-agenda-view": "TaskNotes/Views/agenda-default.base",
+    "pomodoro-stats-base": "TaskNotes/Views/pomodoro-stats.base",
+    "relationships": "TaskNotes/Views/relationships.base"
+  },
+  "maintainDueDateOffsetInRecurring": false,
+  "resetCheckboxesOnRecurrence": false,
+  "useFrontmatterMarkdownLinks": false,
+  "enableGoogleCalendar": false,
+  "enableMicrosoftCalendar": false,
+  "disableCalendarOnMobile": false,
+  "enabledGoogleCalendars": [],
+  "googleCalendarSyncTokens": {},
+  "enabledMicrosoftCalendars": [],
+  "microsoftCalendarSyncTokens": {},
+  "googleCalendarExport": {
+    "enabled": false,
+    "targetCalendarId": "",
+    "syncOnTaskCreate": true,
+    "syncOnTaskUpdate": true,
+    "syncOnTaskComplete": true,
+    "syncOnTaskDelete": true,
+    "eventTitleTemplate": "{{title}}",
+    "includeDescription": true,
+    "eventColorId": null,
+    "syncTrigger": "scheduled",
+    "createAsAllDay": true,
+    "defaultEventDuration": 60,
+    "includeObsidianLink": true,
+    "defaultReminderMinutes": null
+  },
+  "enableDebugLogging": false,
+  "lastSeenVersion": "4.13.2",
+  "lastNotifiedReleaseVersion": "4.13.5",
+  "pomodoroState": {
+    "isRunning": false,
+    "timeRemaining": 1237,
+    "currentSession": {
+      "id": "1790113949566",
+      "startTime": "2026-09-23T05:52:29.566+08:00",
+      "plannedDuration": 25,
+      "type": "work",
+      "completed": false,
+      "activePeriods": [
+        {
+          "startTime": "2026-09-23T05:52:29.566+08:00",
+          "endTime": "2026-09-23T05:56:53.311+08:00"
+        }
+      ]
+    }
+  },
+  "lastPomodoroDate": "2026-09-22",
+  "pomodoroHistory": [
+    {
+      "id": "1789868021431",
+      "startTime": "2026-09-20T09:33:41.431+08:00",
+      "endTime": "2026-09-20T09:54:45.072+08:00",
+      "plannedDuration": 25,
+      "type": "work",
+      "completed": false,
+      "activePeriods": [
+        {
+          "startTime": "2026-09-20T09:33:41.431+08:00",
+          "endTime": "2026-09-20T09:54:45.072+08:00"
+        }
+      ]
+    },
+    {
+      "id": "1789870763644",
+      "startTime": "2026-09-20T10:19:23.644+08:00",
+      "endTime": "2026-09-20T10:25:18.417+08:00",
+      "plannedDuration": 25,
+      "type": "work",
+      "completed": false,
+      "activePeriods": [
+        {
+          "startTime": "2026-09-20T10:19:23.644+08:00",
+          "endTime": "2026-09-20T10:25:18.417+08:00"
+        }
+      ]
+    },
+    {
+      "id": "1789888322501",
+      "startTime": "2026-09-20T15:12:02.500+08:00",
+      "endTime": "2026-09-20T15:31:27.406+08:00",
+      "plannedDuration": 25,
+      "type": "work",
+      "completed": false,
+      "activePeriods": [
+        {
+          "startTime": "2026-09-20T15:12:02.500+08:00",
+          "endTime": "2026-09-20T15:31:26.334+08:00"
+        }
+      ]
+    },
+    {
+      "id": "1789902926114",
+      "startTime": "2026-09-20T19:15:26.114+08:00",
+      "endTime": "2026-09-20T19:40:26.114+08:00",
+      "plannedDuration": 25,
+      "type": "work",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2026-09-20T19:15:26.114+08:00",
+          "endTime": "2026-09-20T19:40:26.114+08:00"
+        }
+      ]
+    },
+    {
+      "id": "1789904427230",
+      "startTime": "2026-09-20T19:40:27.230+08:00",
+      "endTime": "2026-09-20T19:45:27.230+08:00",
+      "plannedDuration": 5,
+      "type": "short-break",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2026-09-20T19:40:27.230+08:00",
+          "endTime": "2026-09-20T19:45:27.230+08:00"
+        }
+      ]
+    },
+    {
+      "id": "1789904740551",
+      "startTime": "2026-09-20T19:45:40.551+08:00",
+      "endTime": "2026-09-20T20:10:40.551+08:00",
+      "plannedDuration": 25,
+      "type": "work",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2026-09-20T19:45:40.551+08:00",
+          "endTime": "2026-09-20T20:10:40.551+08:00"
+        }
+      ]
+    },
+    {
+      "id": "1789906241627",
+      "startTime": "2026-09-20T20:10:41.627+08:00",
+      "endTime": "2026-09-20T20:15:41.627+08:00",
+      "plannedDuration": 5,
+      "type": "short-break",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2026-09-20T20:10:41.627+08:00",
+          "endTime": "2026-09-20T20:15:41.627+08:00"
+        }
+      ]
+    },
+    {
+      "id": "1789912486492",
+      "startTime": "2026-09-20T21:54:46.492+08:00",
+      "endTime": "2026-09-20T22:19:46.492+08:00",
+      "plannedDuration": 25,
+      "type": "work",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2026-09-20T21:54:46.492+08:00",
+          "endTime": "2026-09-20T22:19:46.492+08:00"
+        }
+      ]
+    },
+    {
+      "id": "1789913987585",
+      "startTime": "2026-09-20T22:19:47.585+08:00",
+      "endTime": "2026-09-20T22:24:47.585+08:00",
+      "plannedDuration": 5,
+      "type": "short-break",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2026-09-20T22:19:47.585+08:00",
+          "endTime": "2026-09-20T22:24:47.585+08:00"
+        }
+      ]
+    },
+    {
+      "id": "1789914308142",
+      "startTime": "2026-09-20T22:25:08.142+08:00",
+      "endTime": "2026-09-20T22:50:08.142+08:00",
+      "plannedDuration": 25,
+      "type": "work",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2026-09-20T22:25:08.142+08:00",
+          "endTime": "2026-09-20T22:50:08.142+08:00"
+        }
+      ]
+    },
+    {
+      "id": "1789915809209",
+      "startTime": "2026-09-20T22:50:09.209+08:00",
+      "endTime": "2026-09-20T23:05:09.209+08:00",
+      "plannedDuration": 15,
+      "type": "long-break",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2026-09-20T22:50:09.209+08:00",
+          "endTime": "2026-09-20T23:05:09.209+08:00"
+        }
+      ]
+    },
+    {
+      "id": "1789981555881",
+      "startTime": "2026-09-21T17:05:55.881+08:00",
+      "endTime": "2026-09-21T17:30:55.881+08:00",
+      "plannedDuration": 25,
+      "type": "work",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2026-09-21T17:05:55.881+08:00",
+          "endTime": "2026-09-21T17:30:55.881+08:00"
+        }
+      ]
+    },
+    {
+      "id": "1789983057000",
+      "startTime": "2026-09-21T17:30:57.000+08:00",
+      "endTime": "2026-09-21T17:35:57.000+08:00",
+      "plannedDuration": 5,
+      "type": "short-break",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2026-09-21T17:30:57.000+08:00",
+          "endTime": "2026-09-21T17:35:57.000+08:00"
+        }
+      ]
+    },
+    {
+      "id": "1789983365637",
+      "startTime": "2026-09-21T17:36:05.637+08:00",
+      "endTime": "2026-09-21T18:02:58.234+08:00",
+      "plannedDuration": 25,
+      "type": "work",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2026-09-21T17:36:05.637+08:00",
+          "endTime": "2026-09-21T17:47:59.193+08:00"
+        },
+        {
+          "startTime": "2026-09-21T17:49:25.978+08:00",
+          "endTime": "2026-09-21T17:50:42.717+08:00"
+        },
+        {
+          "startTime": "2026-09-21T17:51:08.529+08:00",
+          "endTime": "2026-09-21T18:02:58.234+08:00"
+        }
+      ]
+    },
+    {
+      "id": "1789984980616",
+      "startTime": "2026-09-21T18:03:00.616+08:00",
+      "endTime": "2026-09-21T18:08:00.616+08:00",
+      "plannedDuration": 5,
+      "type": "short-break",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2026-09-21T18:03:00.616+08:00",
+          "endTime": "2026-09-21T18:08:00.616+08:00"
+        }
+      ]
+    },
+    {
+      "id": "1789985292602",
+      "startTime": "2026-09-21T18:08:12.602+08:00",
+      "endTime": "2026-09-21T19:41:55.437+08:00",
+      "plannedDuration": 25,
+      "type": "work",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2026-09-21T18:08:12.602+08:00",
+          "endTime": "2026-09-21T18:23:03.544+08:00"
+        },
+        {
+          "startTime": "2026-09-21T18:23:05.110+08:00",
+          "endTime": "2026-09-21T18:23:07.052+08:00"
+        },
+        {
+          "startTime": "2026-09-21T19:31:48.321+08:00",
+          "endTime": "2026-09-21T19:41:55.437+08:00"
+        }
+      ]
+    },
+    {
+      "id": "1789990918387",
+      "startTime": "2026-09-21T19:41:58.387+08:00",
+      "endTime": "2026-09-21T20:11:05.787+08:00",
+      "plannedDuration": 5,
+      "type": "short-break",
+      "completed": false,
+      "activePeriods": [
+        {
+          "startTime": "2026-09-21T19:41:58.387+08:00",
+          "endTime": "2026-09-21T19:43:08.996+08:00"
+        },
+        {
+          "startTime": "2026-09-21T20:11:04.968+08:00",
+          "endTime": "2026-09-21T20:11:05.787+08:00"
+        }
+      ]
+    },
+    {
+      "id": "1789992667780",
+      "startTime": "2026-09-21T20:11:07.780+08:00",
+      "endTime": "2026-09-21T20:36:07.780+08:00",
+      "plannedDuration": 25,
+      "type": "work",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2026-09-21T20:11:07.780+08:00",
+          "endTime": "2026-09-21T20:36:07.780+08:00"
+        }
+      ]
+    },
+    {
+      "id": "1789994168858",
+      "startTime": "2026-09-21T20:36:08.858+08:00",
+      "endTime": "2026-09-21T20:37:29.179+08:00",
+      "plannedDuration": 15,
+      "type": "long-break",
+      "completed": false,
+      "activePeriods": [
+        {
+          "startTime": "2026-09-21T20:36:08.858+08:00",
+          "endTime": "2026-09-21T20:37:29.179+08:00"
+        }
+      ]
+    },
+    {
+      "id": "1789994250101",
+      "startTime": "2026-09-21T20:37:30.101+08:00",
+      "endTime": "2026-09-21T21:02:30.101+08:00",
+      "plannedDuration": 25,
+      "type": "work",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2026-09-21T20:37:30.101+08:00",
+          "endTime": "2026-09-21T21:02:30.101+08:00"
+        }
+      ]
+    },
+    {
+      "id": "1789995751169",
+      "startTime": "2026-09-21T21:02:31.169+08:00",
+      "endTime": "2026-09-21T21:03:06.428+08:00",
+      "plannedDuration": 5,
+      "type": "short-break",
+      "completed": false,
+      "activePeriods": [
+        {
+          "startTime": "2026-09-21T21:02:31.169+08:00",
+          "endTime": "2026-09-21T21:03:06.428+08:00"
+        }
+      ]
+    },
+    {
+      "id": "1790073290905",
+      "startTime": "2026-09-22T18:34:50.905+08:00",
+      "endTime": "2026-09-22T19:00:41.142+08:00",
+      "plannedDuration": 25,
+      "type": "work",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2026-09-22T18:34:50.905+08:00",
+          "endTime": "2026-09-22T18:46:43.806+08:00"
+        },
+        {
+          "startTime": "2026-09-22T18:47:34.043+08:00",
+          "endTime": "2026-09-22T19:00:41.142+08:00"
+        }
+      ]
+    },
+    {
+      "id": "1790074843169",
+      "startTime": "2026-09-22T19:00:43.169+08:00",
+      "endTime": "2026-09-22T19:18:02.245+08:00",
+      "plannedDuration": 5,
+      "type": "short-break",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2026-09-22T19:00:43.169+08:00",
+          "endTime": "2026-09-22T19:02:05.776+08:00"
+        },
+        {
+          "startTime": "2026-09-22T19:14:24.852+08:00",
+          "endTime": "2026-09-22T19:18:02.245+08:00"
+        }
+      ]
+    },
+    {
+      "id": "1790076549061",
+      "startTime": "2026-09-22T19:29:09.061+08:00",
+      "endTime": "2026-09-22T19:54:09.061+08:00",
+      "plannedDuration": 25,
+      "type": "work",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2026-09-22T19:29:09.061+08:00",
+          "endTime": "2026-09-22T19:54:09.061+08:00"
+        }
+      ]
+    },
+    {
+      "id": "1790078050141",
+      "startTime": "2026-09-22T19:54:10.141+08:00",
+      "endTime": "2026-09-22T19:54:38.077+08:00",
+      "plannedDuration": 5,
+      "type": "short-break",
+      "completed": false,
+      "activePeriods": [
+        {
+          "startTime": "2026-09-22T19:54:10.141+08:00",
+          "endTime": "2026-09-22T19:54:38.077+08:00"
+        }
+      ]
+    },
+    {
+      "id": "1790112123622",
+      "startTime": "2026-09-23T05:22:03.622+08:00",
+      "endTime": "2026-09-23T05:22:18.173+08:00",
+      "plannedDuration": 25,
+      "type": "work",
+      "taskPath": "TaskNotes/Tasks/fili aa lol.md",
+      "completed": false,
+      "activePeriods": [
+        {
+          "startTime": "2026-09-23T05:22:03.622+08:00",
+          "endTime": "2026-09-23T05:22:18.173+08:00"
+        }
+      ]
+    },
+    {
+      "id": "1790112139066",
+      "startTime": "2026-09-23T05:22:19.066+08:00",
+      "endTime": "2026-09-23T05:47:19.066+08:00",
+      "plannedDuration": 25,
+      "type": "work",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2026-09-23T05:22:19.066+08:00",
+          "endTime": "2026-09-23T05:47:19.066+08:00"
+        }
+      ]
+    },
+    {
+      "id": "1790113640252",
+      "startTime": "2026-09-23T05:47:20.252+08:00",
+      "endTime": "2026-09-23T05:52:20.252+08:00",
+      "plannedDuration": 5,
+      "type": "short-break",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2026-09-23T05:47:20.252+08:00",
+          "endTime": "2026-09-23T05:52:20.252+08:00"
+        }
+      ]
+    }
+  ]
+}
