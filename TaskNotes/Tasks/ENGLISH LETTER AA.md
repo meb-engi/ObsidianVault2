@@ -4,9 +4,10 @@ priority: high
 due: 2026-09-16T23:59
 scheduled: 2026-09-15
 dateCreated: 2026-09-15T10:28:27.647+08:00
-dateModified: 2026-09-15T22:01:56.019+08:00
+dateModified: 2026-09-30T10:25:25.429+08:00
 tags:
   - task
+  - archived
 reminders:
   - id: rem_1789439318273
     type: relative

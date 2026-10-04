@@ -489,7 +489,7 @@
   },
   "enableDebugLogging": false,
   "lastSeenVersion": "4.13.2",
-  "lastNotifiedReleaseVersion": "4.13.5",
+  "lastNotifiedReleaseVersion": "4.13.8",
   "pomodoroState": {
     "isRunning": false,
     "timeRemaining": 1237,
