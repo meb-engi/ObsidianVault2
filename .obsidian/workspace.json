@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "40dab52c1c430087",
+            "id": "737efa9feb2f9183",
             "type": "leaf",
             "state": {
               "type": "bases",
@@ -263,15 +263,16 @@
       "tasknotes:Create new task": false
     }
   },
-  "active": "40dab52c1c430087",
+  "active": "737efa9feb2f9183",
   "lastOpenFiles": [
-    "Cheat Sheet.md",
+    "TaskNotes/Tasks/math fa3 (1 whole).md",
+    "Notebooks/Q1/COMPSCI/notes COMPSCI.md",
     "TaskNotes/Views/kanban-default.base",
+    "Cheat Sheet.md",
     "TaskNotes/Tasks/English Graded Recit 1 (Song of Roland) REVIEW.md",
     "TaskNotes/Tasks/Chemistry FA1 (LG 2.4-2.5 Rate Law) REVIEW.md",
     "TaskNotes/Tasks/Filipino FA1 (LG 4.1 Panitikan sa Panahon ng Kolonyalismo).md",
     "TaskNotes/Tasks/Biology FA1 (Mendelian Inheritance).md",
-    "Notebooks/Q1/COMPSCI/notes COMPSCI.md",
     "TaskNotes/Tasks/music async.md",
     "TaskNotes/Tasks/FILIPINO AA Awiting Bayan.md",
     "TaskNotes/Tasks/announce an interest check for OCE newbie pugs.md",
