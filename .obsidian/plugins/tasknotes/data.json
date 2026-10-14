@@ -492,22 +492,9 @@
   "lastNotifiedReleaseVersion": "4.13.8",
   "pomodoroState": {
     "isRunning": false,
-    "timeRemaining": 1237,
-    "currentSession": {
-      "id": "1790113949566",
-      "startTime": "2026-09-23T05:52:29.566+08:00",
-      "plannedDuration": 25,
-      "type": "work",
-      "completed": false,
-      "activePeriods": [
-        {
-          "startTime": "2026-09-23T05:52:29.566+08:00",
-          "endTime": "2026-09-23T05:56:53.311+08:00"
-        }
-      ]
-    }
+    "timeRemaining": 1500
   },
-  "lastPomodoroDate": "2026-09-22",
+  "lastPomodoroDate": "2026-10-11",
   "pomodoroHistory": [
     {
       "id": "1789868021431",
@@ -927,6 +914,20 @@
         {
           "startTime": "2026-09-23T05:47:20.252+08:00",
           "endTime": "2026-09-23T05:52:20.252+08:00"
+        }
+      ]
+    },
+    {
+      "id": "1791804599680",
+      "startTime": "2026-10-12T19:29:59.680+08:00",
+      "endTime": "2026-10-12T19:30:01.268+08:00",
+      "plannedDuration": 25,
+      "type": "work",
+      "completed": false,
+      "activePeriods": [
+        {
+          "startTime": "2026-10-12T19:29:59.680+08:00",
+          "endTime": "2026-10-12T19:30:01.268+08:00"
         }
       ]
     }

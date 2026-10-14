@@ -80,12 +80,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notebooks/Q1/COMPSCI/notes COMPSCI.md",
+                "file": "Cheat Sheet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "notes COMPSCI"
+              "title": "Cheat Sheet"
             }
           }
         ],
@@ -266,15 +266,14 @@
   },
   "active": "737efa9feb2f9183",
   "lastOpenFiles": [
-    "TaskNotes/Tasks/delete glazewm fromm ur windows pc.md",
-    "TaskNotes/Tasks/STUDY FOR SS RECIT.md",
-    "TaskNotes/Tasks/SMART UP THEME.md",
-    "TaskNotes/Tasks/study bio fa.md",
-    "TaskNotes/Tasks/do BIO AA in gchate.md",
-    "Notebooks/Q1/COMPSCI/notes COMPSCI.md",
-    "Cheat Sheet.md",
-    "TaskNotes/Views/kanban-default.base",
+    "TaskNotes/Tasks/review song of roland.md",
+    "TaskNotes/Tasks/study comsci.md",
+    "TaskNotes/Tasks/smnart up theme.md",
+    "TaskNotes/Tasks/Study Physics FA 1 - Lgs 4.1 to 4.3.md",
     "TaskNotes/Tasks/math fa3 (1 whole).md",
+    "Notebooks/Q1/COMPSCI/notes COMPSCI.md",
+    "TaskNotes/Views/kanban-default.base",
+    "Cheat Sheet.md",
     "TaskNotes/Tasks/English Graded Recit 1 (Song of Roland) REVIEW.md",
     "TaskNotes/Tasks/Chemistry FA1 (LG 2.4-2.5 Rate Law) REVIEW.md",
     "TaskNotes/Tasks/Filipino FA1 (LG 4.1 Panitikan sa Panahon ng Kolonyalismo).md",
@@ -299,6 +298,7 @@
     "TaskNotes/Tasks/study CHEM.md",
     "TaskNotes/Tasks/reping for OCE newbie pug interest check.md",
     "TaskNotes/Tasks/read gilgamesh, job, and oedipus.md",
+    "TaskNotes/Tasks/print sci mates consent form.md",
     "TaskNotes/Views",
     "TaskNotes/Tasks",
     "TaskNotes",
