@@ -151,7 +151,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0f9fb8ad212a4edc",
@@ -265,6 +266,10 @@
   },
   "active": "737efa9feb2f9183",
   "lastOpenFiles": [
+    "TaskNotes/Tasks/review song of roland.md",
+    "TaskNotes/Tasks/study comsci.md",
+    "TaskNotes/Tasks/smnart up theme.md",
+    "TaskNotes/Tasks/Study Physics FA 1 - Lgs 4.1 to 4.3.md",
     "TaskNotes/Tasks/math fa3 (1 whole).md",
     "Notebooks/Q1/COMPSCI/notes COMPSCI.md",
     "TaskNotes/Views/kanban-default.base",
@@ -294,10 +299,6 @@
     "TaskNotes/Tasks/reping for OCE newbie pug interest check.md",
     "TaskNotes/Tasks/read gilgamesh, job, and oedipus.md",
     "TaskNotes/Tasks/print sci mates consent form.md",
-    "TaskNotes/Tasks/make reviewers and notes for the exam subj.md",
-    "TaskNotes/Tasks/make melody for fil.md",
-    "TaskNotes/Tasks/make math portfolio.md",
-    "TaskNotes/Tasks/look into the led light thing ate kylie suggested.md",
     "TaskNotes/Views",
     "TaskNotes/Tasks",
     "TaskNotes",
